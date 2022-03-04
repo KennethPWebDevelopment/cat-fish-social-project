@@ -21,3 +21,44 @@ h6 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
 }
+
+
+/* Login Header */
+
+#login-header-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Buttons */
+
+#login-btn, #create-account-btn {
+  width: 100%;
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+/* Create Account Header */
+
+#create-header-div {
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+}
+
+#create-header-div > h1 {
+  text-align: center;
+}
+
+#create-header-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+#create-header-div > a > p {
+  text-align: center;
+  margin-top: 1rem;
+}
